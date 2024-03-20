@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr" lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+      <tite> Responsive Portfolio Website</tite>
+      <link rel="stylesheet" href="style.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      
+      <title>Tuana Öztürk Portfolio</title>
+
+      <title>Gece Gündüz Modu</title>
+     
+
+    </head>
+
+
+    <body class="night-mode">
+    
+        <button class="toggle-btn" onclick="toggleMode()">🌣 / ☾</button> 
+        <script>
+            function toggleMode() {
+                var body = document.body;
+                body.classList.toggle("night-mode");
+                body.classList.toggle("day-mode");
+            }
+            
+        </script>
+
+
+</body>
+
+
+
+
+        <header class="header">
+            <a href="#home" class="logo">Tuana
+                <span>Öztürk</span></a>
+
+                <i class='bx bx-menu' id="menu-icon"></i>
+
+                <nav class="navbar">
+                    <a href="#anasayfa" class="active">Anasayfa</a>
+                    <a href="#egitim.html">Eğitim</a>
+                    <a href="#iletisim.html">İletişim</a>
+
+                </nav>
+        </header>
+             
+        <section class="anasayfa" id="anasayfa">
+            <div class="anasayfa-content">
+                <h1>Merhaba, Ben
+                    <span>Tuana</span></h1>
+                <h3 class="text-animation"><span>
+                </span></h3>
+                <p>Kişisel olarak geliştirdiğim ilk sitem. O nedenle bu siteyi 
+                    'Portfolio' sitesi olarak oluşturup sizlere sunmak istedim. Yaptığım tüm çalışmaları
+                    burada yayınlayacağım. 
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tuana-%C3%B6-b99b86294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx 
+                        bxl-linkedin'></i></a>
+
+                        <a href="https://github.com/tuaztrk"> <i class='bx bxl-github'>      
+                        </i></a>
+                    </div>
+                
+                <div class="btn-grup">
+                  
+                    <a href="#iletisim"
+                    class="btn">Bağlantılar</a>
+                </div>
+            </div>
+                <div class="anasayfa-img">
+                    <img src="resım/copy.jpg" alt="">
+                </div>
+
+        </section>
+
+           <section class="education" id="education">
+                 <h2 class="heading">Öğrenim</h2>
+
+                 <div class="timeline-items">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"> </div>
+                            <div clas="timeline-date">2018</div>
+                            <div class="timeline-content">
+                                <h3>Ortaokul</h3>
+                                <p> 2018 yılında Sultantepe Ortaokulundan mezun oldum.
+                                </p>
+                            </div>
+                       
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"> </div>
+                            <div clas="timeline-date">2019</div>
+                            <div class="timeline-content">
+                                <h3>Lise</h3>
+                                <p> 2019 yılında Lise öğrenimime Kazım İşmen Anadolu Lisesine 
+                                    giderek başladım.
+                                </p>
+                            </div>
+                       
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                            <div clas="timeline-date">2023</div>
+                            <div class="timeline-content">
+                                <h3>Üniversite</h3>
+                                <p> 2023 yılında liseden mezun olduktan sonra FMV
+                                    Işık Üniversitesi 'Bilgisayar Programcılığı' bölümüne giriş yaptım.
+                                </p>
+                            </div>
+                        
+                    </div>
+                 </div>
+           </section>
+
+           <section class="contact" id="contact">
+                  <h2 class="heading">İletişim</h2>
+
+                  <form action="">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="text"
+                            placeholder="Ad Soyad">
+                            <input type="Email"
+                            placeholder="Email">
+                            
+                        </div>
+
+                         <div class="input-box">
+                            <input type="number"
+                            placeholder="Telefon Numarası">
+                            <input type="text"
+                            placeholder="Konu">     
+                         </div>
+                    </div>
+
+                    <div class="input-group-2">
+                    <textarea name="" id="" cols="30"
+                    rows="10" placeholder="Mesajınız"></textarea>
+                    <input type="submit" value="Gönder" class="btn">
+                </div>
+                  </form>
+                </section>
+
+                <footer class="footer">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/tuana-%C3%B6-b99b86294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx 
+                            bxl-linkedin'></i></a>
+    
+                            <a href="https://github.com/tuaztrk"> <i class='bx bxl-github'>      
+                            </i></a>
+
+                    </div>
+                    <p class="copyright">
+                        © Tuana Öztürk | 2024
+                    </p>
+                </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
